@@ -1,0 +1,48 @@
+html {
+  min-height: 100%;
+}
+body{
+  font-family: "Poppins" !important;
+}
+h1 {
+  color: red;
+}
+.image-product{
+  object-fit:cover;
+  width: 75%;
+  height: 75%;
+}
+.jumbotron {
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px; /* atur tinggi yang diinginkan */
+  width: 100%; /* atur lebar yang diinginkan */
+}
+.home {
+  background-color: #C9D7DA;
+  height: 100%;
+}
+@media only screen and (min-width: 992px) {
+  .text-jumbotron{
+    margin-top: 10rem !important;
+  }
+  .navbar-nav a {
+    padding: 0 30px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .nav-product {
+    padding-left: 12px;
+  }
+  .navbar-nav a {
+    padding: 0 13px !important;
+  }
+  footer .container {
+    padding-left: 36px !important;
+  }
+}
+
+footer{
+  background-color: #F2F8FC !important;
+}
